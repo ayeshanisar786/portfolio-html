@@ -21,7 +21,7 @@ export default function Hero() {
     <section
       id="home"
       ref={ref}
-      className="relative h-screen flex items-center justify-center overflow-hidden"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden py-20 md:py-0"
     >
       {/* Parallax background */}
       <motion.div
@@ -32,70 +32,120 @@ export default function Hero() {
       </motion.div>
 
       <motion.div
-        className="max-w-7xl mx-auto px-6 text-center"
+        className="max-w-7xl mx-auto px-6 w-full"
         style={{ opacity }}
       >
-        {/* Animated greeting */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 2.3 }}
-          className="mb-6"
-        >
-          <span className="text-lg md:text-xl text-white/50 font-light">Hello, I'm</span>
-        </motion.div>
-
-        {/* Main heading with letter animation */}
-        <div className="mb-8">
-          <motion.h1
-            className="text-6xl md:text-8xl lg:text-9xl font-bold mb-4"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.5, delay: 2.5 }}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          {/* Left side - Illustration */}
+          <motion.div
+            initial={{ opacity: 0, x: -50 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1, delay: 2.3 }}
+            className="order-2 lg:order-1 flex justify-center lg:justify-end"
           >
-            <span className="gradient-text font-serif italic">Noor Tahir</span>
-          </motion.h1>
-
-          {/* Animated subtitle */}
-          <div className="flex flex-wrap items-center justify-center gap-x-3 gap-y-2">
-            {words.map((word, wordIndex) => (
-              <motion.span
-                key={wordIndex}
-                className="text-xl md:text-3xl lg:text-4xl text-white/70 font-light"
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 2.7 + wordIndex * 0.1 }}
+            <div className="relative w-full max-w-md aspect-[3/4]">
+              <motion.div
+                className="relative w-full h-full"
+                animate={{
+                  y: [0, -20, 0],
+                }}
+                transition={{
+                  duration: 3,
+                  repeat: Infinity,
+                  ease: "easeInOut"
+                }}
               >
-                {word}
-              </motion.span>
-            ))}
+                <Image
+                  src="/images/hero/hero-portrait.jpeg"
+                  alt="Noor Tahir - Graphic Designer"
+                  fill
+                  className="object-contain"
+                  priority
+                />
+              </motion.div>
+
+              {/* Decorative elements */}
+              <motion.div
+                className="absolute -z-10 top-10 -left-10 w-72 h-72 bg-[#8b5cf6]/20 rounded-full blur-3xl"
+                animate={{
+                  scale: [1, 1.2, 1],
+                  opacity: [0.3, 0.5, 0.3]
+                }}
+                transition={{
+                  duration: 4,
+                  repeat: Infinity,
+                  ease: "easeInOut"
+                }}
+              />
+            </div>
+          </motion.div>
+
+          {/* Right side - Text content */}
+          <div className="order-1 lg:order-2 text-center lg:text-left">
+            {/* Animated greeting */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 2.3 }}
+              className="mb-6"
+            >
+              <span className="text-lg md:text-xl text-white/50 font-light">Hello, I'm</span>
+            </motion.div>
+
+            {/* Main heading */}
+            <div className="mb-8">
+              <motion.h1
+                className="text-5xl md:text-7xl lg:text-8xl font-bold mb-4"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 0.5, delay: 2.5 }}
+              >
+                <span className="gradient-text font-serif italic">Noor Tahir</span>
+              </motion.h1>
+
+              {/* Animated subtitle */}
+              <div className="flex flex-wrap items-center justify-center lg:justify-start gap-x-3 gap-y-2">
+                {words.map((word, wordIndex) => (
+                  <motion.span
+                    key={wordIndex}
+                    className="text-xl md:text-2xl lg:text-3xl text-white/70 font-light"
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.5, delay: 2.7 + wordIndex * 0.1 }}
+                  >
+                    {word}
+                  </motion.span>
+                ))}
+              </div>
+            </div>
+
+            {/* Description */}
+            <motion.p
+              className="text-base md:text-lg text-white/60 max-w-xl mb-12 leading-relaxed mx-auto lg:mx-0"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 3.2 }}
+            >
+              I'm determined and professional, taking other people's visions and making them even better.
+              Experienced working with clients to identify needs and present solutions.
+            </motion.p>
+
+            {/* CTA Button - Centered on mobile, left-aligned on desktop */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 3.5 }}
+              className="flex justify-center lg:justify-start"
+            >
+              <a
+                href="#work"
+                className="inline-block px-8 py-4 bg-gradient-to-r from-[#8b5cf6] to-[#a78bfa] text-white font-semibold rounded-full hover:shadow-xl hover:shadow-[#8b5cf6]/50 transform hover:scale-105 transition-all duration-300"
+              >
+                View My Work
+              </a>
+            </motion.div>
           </div>
         </div>
-
-        {/* Description */}
-        <motion.p
-          className="text-base md:text-lg text-white/60 max-w-2xl mx-auto mb-12 leading-relaxed"
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 3.2 }}
-        >
-          I'm determined and professional, taking other people's visions and making them even better.
-          Experienced working with clients to identify needs and present solutions.
-        </motion.p>
-
-        {/* CTA Button */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 3.5 }}
-        >
-          <a
-            href="#work"
-            className="inline-block px-8 py-4 bg-gradient-to-r from-[#8b5cf6] to-[#a78bfa] text-white font-semibold rounded-full hover:shadow-xl hover:shadow-[#8b5cf6]/50 transform hover:scale-105 transition-all duration-300"
-          >
-            View My Work
-          </a>
-        </motion.div>
 
         {/* Scroll indicator */}
         <motion.div
