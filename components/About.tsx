@@ -121,6 +121,7 @@ export default function About() {
             initial={{ opacity: 0, y: 30 }}
             animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
             transition={{ duration: 0.8 }}
+            style={{ paddingLeft: '48px' }}
           >
             {/* About Me Heading */}
             <h2
@@ -245,12 +246,13 @@ export default function About() {
             transition={{ duration: 0.8, delay: 0.3 }}
             className="relative"
           >
-            {/* Vertical Timeline Line */}
+            {/* Vertical Timeline Line - runs from top to bottom */}
             <div
-              className="absolute left-0 top-12 bottom-12"
+              className="absolute left-0 top-8"
               style={{
                 width: '2px',
-                background: 'rgba(139, 92, 246, 0.3)',
+                height: 'calc(100% - 64px)',
+                background: 'rgba(139, 92, 246, 0.2)',
               }}
             />
 
