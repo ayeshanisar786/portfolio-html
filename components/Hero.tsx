@@ -81,7 +81,7 @@ export default function Hero() {
           </motion.div>
 
           {/* Right side - Text content */}
-          <div className="order-1 lg:order-2 text-center lg:text-left">
+          <div className="order-1 lg:order-2 text-center">
             {/* Animated greeting */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -104,7 +104,7 @@ export default function Hero() {
               </motion.h1>
 
               {/* Animated subtitle */}
-              <div className="flex flex-wrap items-center justify-center lg:justify-start gap-x-3 gap-y-2">
+              <div className="flex flex-wrap items-center justify-center gap-x-3 gap-y-2">
                 {words.map((word, wordIndex) => (
                   <motion.span
                     key={wordIndex}
@@ -121,7 +121,7 @@ export default function Hero() {
 
             {/* Description */}
             <motion.p
-              className="text-base md:text-lg text-white/60 max-w-xl mb-12 leading-relaxed mx-auto lg:mx-0"
+              className="text-base md:text-lg text-white/60 max-w-2xl mb-16 leading-relaxed mx-auto"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 3.2 }}
@@ -130,16 +130,16 @@ export default function Hero() {
               Experienced working with clients to identify needs and present solutions.
             </motion.p>
 
-            {/* CTA Button - Centered on mobile, left-aligned on desktop */}
+            {/* CTA Button - Center aligned */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 3.5 }}
-              className="flex justify-center lg:justify-start"
+              className="flex justify-center"
             >
               <a
                 href="#work"
-                className="inline-block px-8 py-4 bg-gradient-to-r from-[#8b5cf6] to-[#a78bfa] text-white font-semibold rounded-full hover:shadow-xl hover:shadow-[#8b5cf6]/50 transform hover:scale-105 transition-all duration-300"
+                className="inline-block px-8 py-3 bg-gradient-to-r from-[#8b5cf6] to-[#a78bfa] text-white font-semibold text-base rounded-full hover:shadow-xl hover:shadow-[#8b5cf6]/50 hover:scale-105 transition-all duration-300"
               >
                 View My Work
               </a>
@@ -149,7 +149,7 @@ export default function Hero() {
 
         {/* Scroll indicator */}
         <motion.div
-          className="absolute bottom-12 left-1/2 transform -translate-x-1/2"
+          className="absolute bottom-12 left-1/2 transform -translate-x-1/2 mt-20"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 4 }}

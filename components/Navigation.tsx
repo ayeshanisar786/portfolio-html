@@ -36,7 +36,7 @@ export default function Navigation() {
         animate={{ y: 0 }}
         transition={{ duration: 0.6, delay: 2 }}
       >
-        <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-8 py-4 flex items-center justify-between">
           {/* Logo */}
           <Link href="#home" className="text-2xl font-bold font-serif italic">
             <motion.span
@@ -49,7 +49,7 @@ export default function Navigation() {
           </Link>
 
           {/* Desktop Navigation */}
-          <ul className="hidden md:flex items-center gap-8">
+          <ul className="hidden md:flex items-center gap-10">
             {navItems.map((item, index) => (
               <motion.li
                 key={item.name}
@@ -59,10 +59,10 @@ export default function Navigation() {
               >
                 <Link
                   href={item.href}
-                  className="text-sm font-medium text-white/70 hover:text-white relative group"
+                  className="text-sm font-medium text-white/70 hover:text-white relative group transition-colors duration-300"
                 >
                   {item.name}
-                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-[#8b5cf6] to-[#a78bfa] group-hover:w-full transition-all duration-300" />
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-[#8b5cf6] to-[#a78bfa] group-hover:w-full transition-all duration-300" />
                 </Link>
               </motion.li>
             ))}

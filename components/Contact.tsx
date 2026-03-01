@@ -43,8 +43,8 @@ export default function Contact() {
   });
 
   return (
-    <section id="contact" className="py-32 px-6" ref={ref}>
-      <div className="max-w-4xl mx-auto">
+    <section id="contact" className="py-20 px-4 md:px-8" ref={ref}>
+      <div className="max-w-5xl mx-auto">
         {/* Section header */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -52,17 +52,17 @@ export default function Contact() {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-5xl md:text-7xl font-bold mb-6 gradient-text font-serif italic">
+          <h2 className="text-5xl md:text-7xl font-bold mb-6 gradient-text font-serif italic text-center">
             Let's Work Together
           </h2>
-          <p className="text-lg text-white/60 max-w-2xl mx-auto">
+          <p className="text-lg text-white/60 max-w-2xl mx-auto text-center">
             Have a project in mind? Let's create something amazing together.
             I'm always open to discussing new opportunities and collaborations.
           </p>
         </motion.div>
 
         {/* Contact cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16 max-w-4xl mx-auto">
           {contactInfo.map((contact, index) => (
             <motion.a
               key={contact.label}
@@ -99,7 +99,7 @@ export default function Contact() {
         >
           <a
             href="mailto:noor.tahir@example.com"
-            className="inline-block px-10 py-5 bg-gradient-to-r from-[#8b5cf6] to-[#a78bfa] text-white font-semibold text-lg rounded-full hover:shadow-2xl hover:shadow-[#8b5cf6]/50 transform hover:scale-105 transition-all duration-300"
+            className="inline-block px-10 py-4 bg-gradient-to-r from-[#8b5cf6] to-[#a78bfa] text-white font-semibold text-base rounded-full hover:shadow-2xl hover:shadow-[#8b5cf6]/50 hover:scale-105 transition-all duration-300"
           >
             Get In Touch
           </a>
@@ -110,12 +110,12 @@ export default function Contact() {
           initial={{ opacity: 0 }}
           animate={inView ? { opacity: 1 } : { opacity: 0 }}
           transition={{ duration: 0.8, delay: 0.8 }}
-          className="mt-24 pt-12 border-t border-white/10 text-center"
+          className="mt-24 pt-12 border-t border-white/10 text-center px-4"
         >
-          <p className="text-white/40 text-sm mb-4">
+          <p className="text-white/40 text-sm mb-4 text-center">
             © {new Date().getFullYear()} Noor Tahir. All rights reserved.
           </p>
-          <p className="text-white/30 text-xs">
+          <p className="text-white/30 text-xs text-center">
             Designed & Developed with passion
           </p>
         </motion.div>

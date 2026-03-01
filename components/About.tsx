@@ -69,7 +69,7 @@ export default function About() {
   };
 
   return (
-    <section id="about" className="py-32 px-6" ref={ref}>
+    <section id="about" className="py-20 px-8 md:px-8" ref={ref}>
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial="hidden"

@@ -49,7 +49,7 @@ function ProjectCard({ project, index }: { project: typeof brandingProjects[0]; 
   return (
     <motion.div
       ref={ref}
-      className={`grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-32 ${
+      className={`grid grid-cols-1 lg:grid-cols-2 gap-12 items-center py-20 ${
         index % 2 === 1 ? 'lg:flex-row-reverse' : ''
       }`}
     >
@@ -73,27 +73,25 @@ function ProjectCard({ project, index }: { project: typeof brandingProjects[0]; 
           {project.name}
         </h3>
 
-        <p className="text-lg text-white/70 leading-relaxed mb-8">
+        <p className="text-lg text-white/70 leading-relaxed mb-8 max-w-xl">
           {project.description}
         </p>
 
         <motion.div
-          className="flex gap-2 mb-4"
+          className="flex flex-wrap gap-2 items-center"
           initial={{ opacity: 0 }}
           animate={inView ? { opacity: 1 } : { opacity: 0 }}
           transition={{ duration: 0.5, delay: 0.4 }}
         >
-          <span className="text-sm text-white/50">Services:</span>
-          <div className="flex flex-wrap gap-2">
-            {['Brand Identity', 'Visual Design', 'Marketing'].map((service) => (
-              <span
-                key={service}
-                className="text-sm text-white/70 px-3 py-1 bg-white/5 rounded-full"
-              >
-                {service}
-              </span>
-            ))}
-          </div>
+          <span className="text-sm text-white/50 mr-2">Services:</span>
+          {['Brand Identity', 'Visual Design', 'Marketing'].map((service) => (
+            <span
+              key={service}
+              className="text-sm text-white/70 px-3 py-1.5 bg-white/5 border border-white/10 rounded-full"
+            >
+              {service}
+            </span>
+          ))}
         </motion.div>
       </motion.div>
 
@@ -105,7 +103,7 @@ function ProjectCard({ project, index }: { project: typeof brandingProjects[0]; 
         animate={inView ? { opacity: 1, x: 0 } : { opacity: 0, x: index % 2 === 0 ? 50 : -50 }}
         transition={{ duration: 0.8, delay: 0.4 }}
       >
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
           {project.images.map((img, imgIndex) => (
             <motion.div
               key={imgIndex}
@@ -138,19 +136,19 @@ export default function Branding() {
   });
 
   return (
-    <section id="branding" className="py-32 px-6" ref={ref}>
+    <section id="branding" className="py-20 px-4 md:px-8" ref={ref}>
       <div className="max-w-7xl mx-auto">
         {/* Section header */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
           transition={{ duration: 0.8 }}
-          className="text-center mb-24"
+          className="text-center mb-20"
         >
-          <h2 className="text-5xl md:text-7xl font-bold mb-6 gradient-text font-serif italic">
+          <h2 className="text-5xl md:text-7xl font-bold mb-6 gradient-text font-serif italic text-center">
             Branding
           </h2>
-          <p className="text-lg text-white/60 max-w-2xl mx-auto">
+          <p className="text-lg text-white/60 max-w-2xl mx-auto text-center">
             Creating comprehensive brand identities that tell compelling stories
           </p>
         </motion.div>

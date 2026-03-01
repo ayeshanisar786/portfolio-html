@@ -20,25 +20,25 @@ export default function Logofolio() {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   return (
-    <section id="logofolio" className="py-32 px-6" ref={ref}>
+    <section id="logofolio" className="py-20 px-4 md:px-8" ref={ref}>
       <div className="max-w-7xl mx-auto">
         {/* Section header */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
           transition={{ duration: 0.8 }}
-          className="text-center mb-20"
+          className="text-center mb-16"
         >
-          <h2 className="text-5xl md:text-7xl font-bold mb-6 gradient-text font-serif italic">
+          <h2 className="text-5xl md:text-7xl font-bold mb-6 gradient-text font-serif italic text-center">
             Logofolio
           </h2>
-          <p className="text-lg text-white/60 max-w-2xl mx-auto">
+          <p className="text-lg text-white/60 max-w-2xl mx-auto text-center">
             A collection of logo designs across various industries and styles
           </p>
         </motion.div>
 
         {/* Logo grid */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {logos.map((logo, index) => (
             <motion.div
               key={logo.id}

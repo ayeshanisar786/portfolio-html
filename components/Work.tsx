@@ -137,7 +137,7 @@ export default function Work() {
   const [selectedCategory, setSelectedCategory] = useState('illustrations');
 
   return (
-    <section id="work" className="py-32 px-6" ref={ref}>
+    <section id="work" className="py-20 px-4 md:px-8" ref={ref}>
       <div className="max-w-7xl mx-auto">
         {/* Section header */}
         <motion.div
@@ -146,10 +146,10 @@ export default function Work() {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-5xl md:text-7xl font-bold mb-6 gradient-text font-serif italic">
+          <h2 className="text-5xl md:text-7xl font-bold mb-6 gradient-text font-serif italic text-center">
             More Work
           </h2>
-          <p className="text-lg text-white/60 max-w-2xl mx-auto">
+          <p className="text-lg text-white/60 max-w-2xl mx-auto text-center">
             Exploring creativity across multiple disciplines
           </p>
         </motion.div>
@@ -159,16 +159,16 @@ export default function Work() {
           initial={{ opacity: 0, y: 20 }}
           animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="flex flex-wrap justify-center gap-4 mb-16"
+          className="flex flex-wrap justify-center gap-3 mb-16"
         >
           {workCategories.map((category, index) => (
             <motion.button
               key={category.id}
               onClick={() => setSelectedCategory(category.id)}
-              className={`px-6 py-3 rounded-full border transition-all duration-300 ${
+              className={`px-6 py-2.5 rounded-full border text-sm font-medium transition-all duration-300 ${
                 selectedCategory === category.id
                   ? 'bg-[#8b5cf6] border-[#8b5cf6] text-white'
-                  : 'bg-white/5 border-white/10 text-white/60 hover:border-[#8b5cf6]/50'
+                  : 'bg-white/5 border-white/10 text-white/60 hover:border-[#8b5cf6]/50 hover:text-white/80'
               }`}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -233,11 +233,11 @@ function ProjectShowcase({
       className="space-y-8"
     >
       {/* Project header */}
-      <div className="max-w-3xl">
+      <div className="max-w-2xl">
         <h3 className="text-3xl md:text-4xl font-bold mb-4 text-white">
           {project.name}
         </h3>
-        <p className="text-lg text-white/70 leading-relaxed mb-4">
+        <p className="text-lg text-white/70 leading-relaxed mb-4 max-w-2xl">
           {project.description}
         </p>
         {project.industry && (
