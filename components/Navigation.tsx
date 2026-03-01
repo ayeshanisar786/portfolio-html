@@ -36,7 +36,7 @@ export default function Navigation() {
         animate={{ y: 0 }}
         transition={{ duration: 0.6, delay: 2 }}
       >
-        <div className="max-w-7xl mx-auto px-8 py-4 flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-8 py-5 flex items-center justify-between">
           {/* Logo */}
           <Link href="#home" className="text-2xl font-bold font-serif italic">
             <motion.span
