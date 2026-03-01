@@ -13,8 +13,8 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-br from-[#8b5cf6]/10 via-transparent to-[#a78bfa]/5" />
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-[#8b5cf6]/20 via-transparent to-transparent" />
 
-      <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 w-full py-20">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+      <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 w-full h-full flex items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center w-full">
 
           {/* Left Side - Text Content */}
           <motion.div
@@ -65,7 +65,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.7 }}
-              className="text-base md:text-lg text-white/60 leading-relaxed max-w-lg mb-10 mx-auto lg:mx-0"
+              className="text-base md:text-lg text-white/60 leading-relaxed max-w-lg mx-auto lg:mx-0"
             >
               I'm determined and professional, taking other people's visions and making them even better.
               Experienced working with clients to identify needs and present solutions.
@@ -76,17 +76,14 @@ export default function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.8 }}
-              className="flex justify-center lg:justify-start"
+              className="flex justify-center lg:justify-start mt-8"
             >
               <a
                 href="#work"
-                className="group relative inline-flex items-center justify-center px-10 py-4 overflow-hidden font-semibold text-white border-2 border-[#8b5cf6] rounded-lg hover:text-white transition-all duration-300 ease-out"
+                className="inline-block px-10 py-4 border-2 border-[#8B5CF6] text-[#8B5CF6] font-medium text-base rounded-lg hover:bg-[#8B5CF6] hover:text-white transition-all duration-300"
+                style={{ letterSpacing: '1px' }}
               >
-                <span className="absolute inset-0 w-full h-full bg-gradient-to-br from-[#8b5cf6] via-[#7c3aed] to-[#a78bfa] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
-                <span className="absolute bottom-0 right-0 block w-64 h-64 mb-32 mr-4 transition duration-500 origin-bottom-left transform rotate-45 translate-x-24 bg-[#a78bfa] rounded-full opacity-30 group-hover:rotate-90 ease"></span>
-                <span className="relative text-[#8b5cf6] group-hover:text-white transition-colors duration-300">
-                  View My Work
-                </span>
+                View My Work
               </a>
             </motion.div>
           </motion.div>
@@ -133,35 +130,13 @@ export default function Hero() {
                     className="object-contain"
                     style={{
                       filter: 'drop-shadow(0 25px 50px rgba(139, 92, 246, 0.4))',
+                      mixBlendMode: 'lighten',
                     }}
                     priority
                   />
                 </div>
               </motion.div>
 
-              {/* Decorative elements */}
-              <motion.div
-                className="absolute -top-10 -right-10 w-20 h-20 border-2 border-[#8b5cf6]/30 rounded-full"
-                animate={{
-                  rotate: 360,
-                }}
-                transition={{
-                  duration: 20,
-                  repeat: Infinity,
-                  ease: "linear"
-                }}
-              />
-              <motion.div
-                className="absolute -bottom-10 -left-10 w-32 h-32 border-2 border-[#a78bfa]/20 rounded-full"
-                animate={{
-                  rotate: -360,
-                }}
-                transition={{
-                  duration: 25,
-                  repeat: Infinity,
-                  ease: "linear"
-                }}
-              />
             </div>
           </motion.div>
         </div>
