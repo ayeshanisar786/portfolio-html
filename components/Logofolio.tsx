@@ -29,11 +29,9 @@ export default function Logofolio() {
           initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
           transition={{ duration: 0.8 }}
-          className="text-center"
-          style={{ marginBottom: '48px' }}
+          style={{ marginBottom: '48px', textAlign: 'center' }}
         >
           <h2
-            className="font-bold text-center"
             style={{
               fontFamily: 'var(--font-script)',
               fontSize: '64px',
@@ -43,16 +41,18 @@ export default function Logofolio() {
               WebkitTextFillColor: 'transparent',
               backgroundClip: 'text',
               marginBottom: '16px',
+              textAlign: 'center',
             }}
           >
             Logofolio
           </h2>
           <p
-            className="text-center mx-auto"
             style={{
               fontSize: '16px',
               color: 'rgba(255, 255, 255, 0.5)',
               maxWidth: '600px',
+              margin: '0 auto',
+              textAlign: 'center',
             }}
           >
             A collection of logo designs across various industries and styles
@@ -70,49 +70,44 @@ export default function Logofolio() {
               initial={{ opacity: 0, y: 20 }}
               animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
               transition={{ duration: 0.6, delay: index * 0.05 }}
-              className="group"
               style={{
                 aspectRatio: '1/1',
                 width: '100%',
               }}
             >
-              {/* Card container */}
+              {/* Card container - single box */}
               <div
-                className="relative w-full h-full transition-all duration-300"
+                className="relative w-full h-full flex items-center justify-center transition-all duration-300"
                 style={{
-                  background: 'rgba(255, 255, 255, 0.03)',
+                  aspectRatio: '1/1',
+                  background: '#0a0a0a',
                   border: '1px solid rgba(255, 255, 255, 0.08)',
                   borderRadius: '16px',
-                  overflow: 'hidden',
+                  padding: '24px',
                 }}
                 onMouseEnter={(e) => {
-                  e.currentTarget.style.transform = 'translateY(-8px)';
-                  e.currentTarget.style.borderColor = 'rgba(139, 92, 246, 0.4)';
-                  e.currentTarget.style.background = 'rgba(139, 92, 246, 0.08)';
+                  e.currentTarget.style.transform = 'scale(1.02)';
+                  e.currentTarget.style.borderColor = '#8B5CF6';
+                  e.currentTarget.style.boxShadow = '0 0 20px rgba(139, 92, 246, 0.15)';
                 }}
                 onMouseLeave={(e) => {
-                  e.currentTarget.style.transform = 'translateY(0)';
+                  e.currentTarget.style.transform = 'scale(1)';
                   e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.08)';
-                  e.currentTarget.style.background = 'rgba(255, 255, 255, 0.03)';
+                  e.currentTarget.style.boxShadow = 'none';
                 }}
               >
-                {/* Image container - centered */}
-                <div
-                  className="absolute inset-0 flex items-center justify-center"
-                  style={{ padding: '32px' }}
-                >
-                  <div className="relative w-full h-full">
-                    <Image
-                      src={logo.src}
-                      alt={logo.alt}
-                      fill
-                      className="object-contain"
-                      loading="lazy"
-                      style={{
-                        filter: 'brightness(1.1)',
-                      }}
-                    />
-                  </div>
+                {/* Image fills card with padding */}
+                <div className="relative w-full h-full">
+                  <Image
+                    src={logo.src}
+                    alt={logo.alt}
+                    fill
+                    className="object-contain"
+                    loading="lazy"
+                    style={{
+                      filter: 'brightness(1.1)',
+                    }}
+                  />
                 </div>
               </div>
             </motion.div>
