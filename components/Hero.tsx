@@ -123,14 +123,18 @@ export default function Hero() {
                 }}
               >
                 <div className="relative aspect-[3/4] w-full">
+                  {/* Purple gradient overlay behind image to blend with background */}
+                  <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#8b5cf6]/10 to-[#0a0a0a] z-10 pointer-events-none" />
+
                   <Image
                     src="/images/hero/hero-portrait.jpeg"
                     alt="Noor Tahir - Graphic Designer"
                     fill
                     className="object-contain"
                     style={{
-                      filter: 'drop-shadow(0 25px 50px rgba(139, 92, 246, 0.4))',
-                      mixBlendMode: 'lighten',
+                      filter: 'brightness(1.1) contrast(1.1) drop-shadow(0 25px 50px rgba(139, 92, 246, 0.5))',
+                      mixBlendMode: 'screen',
+                      opacity: 0.95,
                     }}
                     priority
                   />
