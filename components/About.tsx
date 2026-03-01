@@ -32,7 +32,7 @@ const experiences = [
 
 const education = [
   {
-    degree: 'Bachelor's in Graphic Design',
+    degree: 'Bachelor in Graphic Design',
     school: 'Institute of Visual Arts & Design, LCWU',
     period: '2019 - 2023'
   },
