@@ -1,0 +1,720 @@
+{
+  "hero": [
+    {
+      "filename": "hero-portrait.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/hero/hero-portrait.jpeg",
+      "original_page": 1,
+      "original_index": 1,
+      "width": 672,
+      "height": 1008,
+      "size_bytes": 98594
+    }
+  ],
+  "logos": [
+    {
+      "filename": "logo-01.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/logos/logo-01.jpeg",
+      "original_page": 1,
+      "original_index": 2,
+      "width": 391,
+      "height": 391,
+      "size_bytes": 22329
+    },
+    {
+      "filename": "logo-02.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/logos/logo-02.jpeg",
+      "original_page": 1,
+      "original_index": 3,
+      "width": 391,
+      "height": 391,
+      "size_bytes": 21579
+    },
+    {
+      "filename": "logo-03.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/logos/logo-03.jpeg",
+      "original_page": 1,
+      "original_index": 4,
+      "width": 391,
+      "height": 391,
+      "size_bytes": 20340
+    },
+    {
+      "filename": "logo-04.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/logos/logo-04.jpeg",
+      "original_page": 1,
+      "original_index": 5,
+      "width": 391,
+      "height": 391,
+      "size_bytes": 20556
+    },
+    {
+      "filename": "logo-05.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/logos/logo-05.jpeg",
+      "original_page": 1,
+      "original_index": 6,
+      "width": 391,
+      "height": 391,
+      "size_bytes": 16586
+    },
+    {
+      "filename": "logo-06.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/logos/logo-06.jpeg",
+      "original_page": 1,
+      "original_index": 7,
+      "width": 391,
+      "height": 391,
+      "size_bytes": 23300
+    },
+    {
+      "filename": "logo-07.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/logos/logo-07.jpeg",
+      "original_page": 1,
+      "original_index": 8,
+      "width": 391,
+      "height": 391,
+      "size_bytes": 17209
+    },
+    {
+      "filename": "logo-08.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/logos/logo-08.jpeg",
+      "original_page": 1,
+      "original_index": 9,
+      "width": 391,
+      "height": 391,
+      "size_bytes": 18331
+    },
+    {
+      "filename": "logo-09.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/logos/logo-09.jpeg",
+      "original_page": 1,
+      "original_index": 10,
+      "width": 391,
+      "height": 391,
+      "size_bytes": 22891
+    },
+    {
+      "filename": "logo-10.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/logos/logo-10.jpeg",
+      "original_page": 1,
+      "original_index": 11,
+      "width": 391,
+      "height": 391,
+      "size_bytes": 21066
+    },
+    {
+      "filename": "logo-11.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/logos/logo-11.jpeg",
+      "original_page": 1,
+      "original_index": 12,
+      "width": 391,
+      "height": 391,
+      "size_bytes": 17955
+    },
+    {
+      "filename": "logo-12.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/logos/logo-12.jpeg",
+      "original_page": 1,
+      "original_index": 13,
+      "width": 391,
+      "height": 391,
+      "size_bytes": 18806
+    },
+    {
+      "filename": "logo-13.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/logos/logo-13.jpeg",
+      "original_page": 1,
+      "original_index": 14,
+      "width": 391,
+      "height": 391,
+      "size_bytes": 18209
+    },
+    {
+      "filename": "logo-14.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/logos/logo-14.jpeg",
+      "original_page": 1,
+      "original_index": 15,
+      "width": 391,
+      "height": 391,
+      "size_bytes": 17327
+    },
+    {
+      "filename": "logo-15.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/logos/logo-15.jpeg",
+      "original_page": 1,
+      "original_index": 16,
+      "width": 391,
+      "height": 391,
+      "size_bytes": 19956
+    },
+    {
+      "filename": "logo-16.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/logos/logo-16.jpeg",
+      "original_page": 1,
+      "original_index": 17,
+      "width": 391,
+      "height": 391,
+      "size_bytes": 21574
+    }
+  ],
+  "branding": [
+    {
+      "filename": "intagleo-01.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/branding/intagleo-01.jpeg",
+      "original_page": 1,
+      "original_index": 18,
+      "width": 210,
+      "height": 210,
+      "size_bytes": 4019
+    },
+    {
+      "filename": "intagleo-02.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/branding/intagleo-02.jpeg",
+      "original_page": 1,
+      "original_index": 19,
+      "width": 355,
+      "height": 213,
+      "size_bytes": 9943
+    },
+    {
+      "filename": "intagleo-03.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/branding/intagleo-03.jpeg",
+      "original_page": 1,
+      "original_index": 20,
+      "width": 162,
+      "height": 220,
+      "size_bytes": 3024
+    },
+    {
+      "filename": "intagleo-04.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/branding/intagleo-04.jpeg",
+      "original_page": 1,
+      "original_index": 21,
+      "width": 214,
+      "height": 288,
+      "size_bytes": 5251
+    },
+    {
+      "filename": "intagleo-05.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/branding/intagleo-05.jpeg",
+      "original_page": 1,
+      "original_index": 22,
+      "width": 258,
+      "height": 232,
+      "size_bytes": 6176
+    },
+    {
+      "filename": "intagleo-06.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/branding/intagleo-06.jpeg",
+      "original_page": 1,
+      "original_index": 23,
+      "width": 377,
+      "height": 252,
+      "size_bytes": 18571
+    },
+    {
+      "filename": "bp-spacer-01.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/branding/bp-spacer-01.jpeg",
+      "original_page": 1,
+      "original_index": 24,
+      "width": 436,
+      "height": 328,
+      "size_bytes": 11439
+    },
+    {
+      "filename": "bp-spacer-02.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/branding/bp-spacer-02.jpeg",
+      "original_page": 1,
+      "original_index": 25,
+      "width": 251,
+      "height": 250,
+      "size_bytes": 4434
+    },
+    {
+      "filename": "bp-spacer-03.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/branding/bp-spacer-03.jpeg",
+      "original_page": 1,
+      "original_index": 26,
+      "width": 303,
+      "height": 227,
+      "size_bytes": 5280
+    },
+    {
+      "filename": "limelight-01.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/branding/limelight-01.jpeg",
+      "original_page": 1,
+      "original_index": 38,
+      "width": 175,
+      "height": 340,
+      "size_bytes": 13113
+    },
+    {
+      "filename": "limelight-02.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/branding/limelight-02.jpeg",
+      "original_page": 1,
+      "original_index": 39,
+      "width": 368,
+      "height": 392,
+      "size_bytes": 17445
+    },
+    {
+      "filename": "limelight-03.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/branding/limelight-03.jpeg",
+      "original_page": 1,
+      "original_index": 40,
+      "width": 418,
+      "height": 279,
+      "size_bytes": 20257
+    },
+    {
+      "filename": "limelight-04.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/branding/limelight-04.jpeg",
+      "original_page": 1,
+      "original_index": 41,
+      "width": 205,
+      "height": 280,
+      "size_bytes": 8217
+    },
+    {
+      "filename": "limelight-05.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/branding/limelight-05.jpeg",
+      "original_page": 1,
+      "original_index": 42,
+      "width": 282,
+      "height": 282,
+      "size_bytes": 11883
+    },
+    {
+      "filename": "limelight-06.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/branding/limelight-06.jpeg",
+      "original_page": 1,
+      "original_index": 43,
+      "width": 205,
+      "height": 278,
+      "size_bytes": 14264
+    },
+    {
+      "filename": "limelight-07.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/branding/limelight-07.jpeg",
+      "original_page": 1,
+      "original_index": 44,
+      "width": 186,
+      "height": 279,
+      "size_bytes": 6178
+    },
+    {
+      "filename": "limelight-08.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/branding/limelight-08.jpeg",
+      "original_page": 1,
+      "original_index": 45,
+      "width": 186,
+      "height": 279,
+      "size_bytes": 5960
+    },
+    {
+      "filename": "limelight-09.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/branding/limelight-09.jpeg",
+      "original_page": 1,
+      "original_index": 46,
+      "width": 187,
+      "height": 281,
+      "size_bytes": 6170
+    },
+    {
+      "filename": "misc-branding-047.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/branding/misc-branding-047.jpeg",
+      "original_page": 1,
+      "original_index": 47,
+      "width": 419,
+      "height": 297,
+      "size_bytes": 10818
+    },
+    {
+      "filename": "misc-branding-048.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/branding/misc-branding-048.jpeg",
+      "original_page": 1,
+      "original_index": 48,
+      "width": 431,
+      "height": 304,
+      "size_bytes": 11635
+    },
+    {
+      "filename": "misc-branding-049.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/branding/misc-branding-049.jpeg",
+      "original_page": 1,
+      "original_index": 49,
+      "width": 857,
+      "height": 413,
+      "size_bytes": 88465
+    }
+  ],
+  "illustrations": [
+    {
+      "filename": "recipe-book-01.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/illustrations/recipe-book-01.jpeg",
+      "original_page": 2,
+      "original_index": 1,
+      "width": 1369,
+      "height": 968,
+      "size_bytes": 91764
+    },
+    {
+      "filename": "recipe-book-02.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/illustrations/recipe-book-02.jpeg",
+      "original_page": 2,
+      "original_index": 2,
+      "width": 1024,
+      "height": 1024,
+      "size_bytes": 169841
+    },
+    {
+      "filename": "recipe-book-03.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/illustrations/recipe-book-03.jpeg",
+      "original_page": 2,
+      "original_index": 3,
+      "width": 767,
+      "height": 542,
+      "size_bytes": 28282
+    },
+    {
+      "filename": "recipe-book-04.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/illustrations/recipe-book-04.jpeg",
+      "original_page": 2,
+      "original_index": 4,
+      "width": 472,
+      "height": 708,
+      "size_bytes": 41269
+    },
+    {
+      "filename": "story-book-01.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/illustrations/story-book-01.jpeg",
+      "original_page": 2,
+      "original_index": 5,
+      "width": 769,
+      "height": 544,
+      "size_bytes": 35667
+    },
+    {
+      "filename": "story-book-02.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/illustrations/story-book-02.jpeg",
+      "original_page": 2,
+      "original_index": 6,
+      "width": 393,
+      "height": 598,
+      "size_bytes": 23940
+    },
+    {
+      "filename": "story-book-03.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/illustrations/story-book-03.jpeg",
+      "original_page": 2,
+      "original_index": 7,
+      "width": 361,
+      "height": 1787,
+      "size_bytes": 61804
+    },
+    {
+      "filename": "story-book-04.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/illustrations/story-book-04.jpeg",
+      "original_page": 2,
+      "original_index": 8,
+      "width": 403,
+      "height": 604,
+      "size_bytes": 25985
+    }
+  ],
+  "digital-art": [
+    {
+      "filename": "digital-art-09.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/digital-art/digital-art-09.jpeg",
+      "original_page": 2,
+      "original_index": 9,
+      "width": 419,
+      "height": 279,
+      "size_bytes": 17950
+    },
+    {
+      "filename": "digital-art-10.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/digital-art/digital-art-10.jpeg",
+      "original_page": 2,
+      "original_index": 10,
+      "width": 419,
+      "height": 279,
+      "size_bytes": 18619
+    },
+    {
+      "filename": "digital-art-11.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/digital-art/digital-art-11.jpeg",
+      "original_page": 2,
+      "original_index": 11,
+      "width": 419,
+      "height": 279,
+      "size_bytes": 13291
+    },
+    {
+      "filename": "chess-king-01.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/digital-art/chess-king-01.jpeg",
+      "original_page": 2,
+      "original_index": 12,
+      "width": 588,
+      "height": 833,
+      "size_bytes": 42036
+    },
+    {
+      "filename": "chess-king-02.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/digital-art/chess-king-02.jpeg",
+      "original_page": 2,
+      "original_index": 13,
+      "width": 1155,
+      "height": 662,
+      "size_bytes": 131863
+    },
+    {
+      "filename": "radio-pakistan.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/digital-art/radio-pakistan.jpeg",
+      "original_page": 2,
+      "original_index": 14,
+      "width": 455,
+      "height": 684,
+      "size_bytes": 30048
+    },
+    {
+      "filename": "poverty-poster.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/digital-art/poverty-poster.jpeg",
+      "original_page": 2,
+      "original_index": 15,
+      "width": 625,
+      "height": 884,
+      "size_bytes": 158701
+    }
+  ],
+  "ui-ux": [
+    {
+      "filename": "ui-page1-04.png",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/ui-ux/ui-page1-04.png",
+      "original_page": 1,
+      "original_index": 50,
+      "width": 997,
+      "height": 344,
+      "size_bytes": 31646
+    },
+    {
+      "filename": "ui-page1-05.png",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/ui-ux/ui-page1-05.png",
+      "original_page": 1,
+      "original_index": 51,
+      "width": 798,
+      "height": 344,
+      "size_bytes": 27886
+    },
+    {
+      "filename": "ui-page1-06.png",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/ui-ux/ui-page1-06.png",
+      "original_page": 1,
+      "original_index": 52,
+      "width": 933,
+      "height": 377,
+      "size_bytes": 11606
+    },
+    {
+      "filename": "ui-page1-07.png",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/ui-ux/ui-page1-07.png",
+      "original_page": 1,
+      "original_index": 53,
+      "width": 933,
+      "height": 377,
+      "size_bytes": 11622
+    },
+    {
+      "filename": "ui-page1-08.png",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/ui-ux/ui-page1-08.png",
+      "original_page": 1,
+      "original_index": 54,
+      "width": 933,
+      "height": 377,
+      "size_bytes": 11593
+    },
+    {
+      "filename": "ui-page2-016.png",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/ui-ux/ui-page2-016.png",
+      "original_page": 2,
+      "original_index": 16,
+      "width": 863,
+      "height": 465,
+      "size_bytes": 40545
+    },
+    {
+      "filename": "ui-page2-017.png",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/ui-ux/ui-page2-017.png",
+      "original_page": 2,
+      "original_index": 17,
+      "width": 864,
+      "height": 465,
+      "size_bytes": 40452
+    },
+    {
+      "filename": "ui-page2-018.png",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/ui-ux/ui-page2-018.png",
+      "original_page": 2,
+      "original_index": 18,
+      "width": 863,
+      "height": 465,
+      "size_bytes": 40449
+    },
+    {
+      "filename": "ui-page2-019.png",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/ui-ux/ui-page2-019.png",
+      "original_page": 2,
+      "original_index": 19,
+      "width": 863,
+      "height": 465,
+      "size_bytes": 40537
+    },
+    {
+      "filename": "ui-page2-020.png",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/ui-ux/ui-page2-020.png",
+      "original_page": 2,
+      "original_index": 20,
+      "width": 863,
+      "height": 465,
+      "size_bytes": 40198
+    },
+    {
+      "filename": "ui-page2-021.png",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/ui-ux/ui-page2-021.png",
+      "original_page": 2,
+      "original_index": 21,
+      "width": 863,
+      "height": 465,
+      "size_bytes": 40496
+    },
+    {
+      "filename": "ui-page2-022.png",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/ui-ux/ui-page2-022.png",
+      "original_page": 2,
+      "original_index": 22,
+      "width": 1271,
+      "height": 669,
+      "size_bytes": 76709
+    },
+    {
+      "filename": "ui-page2-023.png",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/ui-ux/ui-page2-023.png",
+      "original_page": 2,
+      "original_index": 23,
+      "width": 1657,
+      "height": 464,
+      "size_bytes": 22288
+    },
+    {
+      "filename": "ui-page2-024.png",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/ui-ux/ui-page2-024.png",
+      "original_page": 2,
+      "original_index": 24,
+      "width": 1548,
+      "height": 467,
+      "size_bytes": 20482
+    },
+    {
+      "filename": "ui-page2-025.png",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/ui-ux/ui-page2-025.png",
+      "original_page": 2,
+      "original_index": 25,
+      "width": 1524,
+      "height": 467,
+      "size_bytes": 20546
+    },
+    {
+      "filename": "ui-page2-026.png",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/ui-ux/ui-page2-026.png",
+      "original_page": 2,
+      "original_index": 26,
+      "width": 1326,
+      "height": 467,
+      "size_bytes": 19010
+    },
+    {
+      "filename": "ui-page2-027.png",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/ui-ux/ui-page2-027.png",
+      "original_page": 2,
+      "original_index": 27,
+      "width": 1720,
+      "height": 471,
+      "size_bytes": 23018
+    }
+  ],
+  "posters": [
+    {
+      "filename": "3d-poster-01.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/posters/3d-poster-01.jpeg",
+      "original_page": 3,
+      "original_index": 1,
+      "width": 525,
+      "height": 788,
+      "size_bytes": 76612
+    },
+    {
+      "filename": "3d-poster-02.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/posters/3d-poster-02.jpeg",
+      "original_page": 3,
+      "original_index": 2,
+      "width": 525,
+      "height": 788,
+      "size_bytes": 85370
+    },
+    {
+      "filename": "3d-poster-03.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/posters/3d-poster-03.jpeg",
+      "original_page": 3,
+      "original_index": 3,
+      "width": 525,
+      "height": 788,
+      "size_bytes": 75494
+    }
+  ],
+  "game": [
+    {
+      "filename": "game-screenshot-01.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/game/game-screenshot-01.jpeg",
+      "original_page": 3,
+      "original_index": 4,
+      "width": 1536,
+      "height": 1024,
+      "size_bytes": 234822
+    },
+    {
+      "filename": "game-screenshot-02.jpeg",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/game/game-screenshot-02.jpeg",
+      "original_page": 3,
+      "original_index": 5,
+      "width": 1428,
+      "height": 952,
+      "size_bytes": 116198
+    },
+    {
+      "filename": "game-screenshot-03.png",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/game/game-screenshot-03.png",
+      "original_page": 3,
+      "original_index": 6,
+      "width": 1440,
+      "height": 813,
+      "size_bytes": 92767
+    },
+    {
+      "filename": "game-screenshot-04.png",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/game/game-screenshot-04.png",
+      "original_page": 3,
+      "original_index": 7,
+      "width": 1441,
+      "height": 813,
+      "size_bytes": 92597
+    },
+    {
+      "filename": "game-screenshot-05.png",
+      "path": "/Users/ayeshanisar/portfolio-html/public/images/game/game-screenshot-05.png",
+      "original_page": 3,
+      "original_index": 8,
+      "width": 1440,
+      "height": 813,
+      "size_bytes": 92813
+    }
+  ]
+}
